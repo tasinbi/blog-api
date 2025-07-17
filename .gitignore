@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Uploads folder
+uploads/
+uploads/featured/
+uploads/images/
+uploads/pdfs/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+test-db.js
+*.test.js
+
+# Build files
+dist/
+build/
+
+# Temporary files
+temp/
+tmp/
